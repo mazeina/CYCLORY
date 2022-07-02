@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F9FDDB5B620779289DAAF07 /* Pods_CYCLORY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC9D0CDC93A874AC54B936A /* Pods_CYCLORY.framework */; };
 		F01A5C3F286F08A80041BC26 /* StorylineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A5C3E286F08A80041BC26 /* StorylineViewController.swift */; };
 		F01A5C41286F0A7E0041BC26 /* CompletedStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A5C40286F0A7E0041BC26 /* CompletedStoriesViewController.swift */; };
 		F01A5C43286F0CC10041BC26 /* ListOfStoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A5C42286F0CC10041BC26 /* ListOfStoriesView.swift */; };
 		F01A5C45286F0F180041BC26 /* ListOfCompletedStoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A5C44286F0F180041BC26 /* ListOfCompletedStoriesView.swift */; };
 		F01A5C47286F15210041BC26 /* ReadingStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A5C46286F15210041BC26 /* ReadingStoryView.swift */; };
 		F01A5C49286F15FB0041BC26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A5C48286F15FB0041BC26 /* Constants.swift */; };
+		F0C4547A286F40FB002AF188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0C45479286F40FB002AF188 /* GoogleService-Info.plist */; };
 		F0D90E51286DD7D5008A19E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D90E50286DD7D5008A19E2 /* AppDelegate.swift */; };
 		F0D90E53286DD7D5008A19E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D90E52286DD7D5008A19E2 /* SceneDelegate.swift */; };
 		F0D90E55286DD7D5008A19E2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D90E54286DD7D5008A19E2 /* MainViewController.swift */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3491FB1AA91E89312C863A0A /* Pods-CYCLORY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYCLORY.debug.xcconfig"; path = "Target Support Files/Pods-CYCLORY/Pods-CYCLORY.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC9D0CDC93A874AC54B936A /* Pods_CYCLORY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYCLORY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1106465B29899F015EA5E8F /* Pods-CYCLORY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYCLORY.release.xcconfig"; path = "Target Support Files/Pods-CYCLORY/Pods-CYCLORY.release.xcconfig"; sourceTree = "<group>"; };
 		F01A5C36286DD8610041BC26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F01A5C38286DDBDC0041BC26 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F01A5C3E286F08A80041BC26 /* StorylineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorylineViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +34,7 @@
 		F01A5C44286F0F180041BC26 /* ListOfCompletedStoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCompletedStoriesView.swift; sourceTree = "<group>"; };
 		F01A5C46286F15210041BC26 /* ReadingStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingStoryView.swift; sourceTree = "<group>"; };
 		F01A5C48286F15FB0041BC26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F0C45479286F40FB002AF188 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0D90E4D286DD7D5008A19E2 /* CYCLORY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCLORY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D90E50286DD7D5008A19E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0D90E52286DD7D5008A19E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9FDDB5B620779289DAAF07 /* Pods_CYCLORY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		234AFAD7344E08D37AF7F03C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3491FB1AA91E89312C863A0A /* Pods-CYCLORY.debug.xcconfig */,
+				E1106465B29899F015EA5E8F /* Pods-CYCLORY.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2770C57EA5ACEC387A6C480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC9D0CDC93A874AC54B936A /* Pods_CYCLORY.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F01A5C3A286F06A80041BC26 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +115,8 @@
 				F01A5C38286DDBDC0041BC26 /* .gitignore */,
 				F0D90E4F286DD7D5008A19E2 /* CYCLORY */,
 				F0D90E4E286DD7D5008A19E2 /* Products */,
+				234AFAD7344E08D37AF7F03C /* Pods */,
+				B2770C57EA5ACEC387A6C480 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +140,7 @@
 				F01A5C3D286F07A80041BC26 /* Extentions */,
 				F0D90E59286DD7D6008A19E2 /* Assets.xcassets */,
 				F0D90E5E286DD7D6008A19E2 /* Info.plist */,
+				F0C45479286F40FB002AF188 /* GoogleService-Info.plist */,
 			);
 			path = CYCLORY;
 			sourceTree = "<group>";
@@ -125,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0D90E61286DD7D6008A19E2 /* Build configuration list for PBXNativeTarget "CYCLORY" */;
 			buildPhases = (
+				7B7799183E1E731F424A75B4 /* [CP] Check Pods Manifest.lock */,
 				F0D90E49286DD7D5008A19E2 /* Sources */,
 				F0D90E4A286DD7D5008A19E2 /* Frameworks */,
 				F0D90E4B286DD7D5008A19E2 /* Resources */,
+				26F4E55DC48578582458B690 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,10 +207,53 @@
 			files = (
 				F0D90E5D286DD7D6008A19E2 /* LaunchScreen.storyboard in Resources */,
 				F0D90E5A286DD7D6008A19E2 /* Assets.xcassets in Resources */,
+				F0C4547A286F40FB002AF188 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26F4E55DC48578582458B690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYCLORY/Pods-CYCLORY-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYCLORY/Pods-CYCLORY-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYCLORY/Pods-CYCLORY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7799183E1E731F424A75B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYCLORY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0D90E49286DD7D5008A19E2 /* Sources */ = {
@@ -330,6 +402,7 @@
 		};
 		F0D90E62286DD7D6008A19E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3491FB1AA91E89312C863A0A /* Pods-CYCLORY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -359,6 +432,7 @@
 		};
 		F0D90E63286DD7D6008A19E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1106465B29899F015EA5E8F /* Pods-CYCLORY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
